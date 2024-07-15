@@ -37,6 +37,8 @@ tests:
       cli: latest
       commands: |2
 
+        npm install -g npx
+
         # Deploy Kubevirt
         source ./deploy-kubevirt-gating.sh
 
